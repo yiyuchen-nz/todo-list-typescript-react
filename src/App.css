@@ -1,6 +1,7 @@
 body{
   margin: 0%;
   padding: 0%;
+  background-color: bisque;
 }
 
 .App {
@@ -15,10 +16,13 @@ body{
 .header{
   flex: 30%;
   background-color: tomato;
-  width: 100%;
+  width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20vh;
+  padding: 50px;
+  border-radius: 10px;
 }
 
 .header .inputContainer {
@@ -82,15 +86,16 @@ body{
   font-size: 18px;
   border-right: none;
   background-color: tomato;
+  border-radius: 10px;
 }
 
 .task button {
   flex: 20%;
   height: 100%;
-  border: none;
+  border: 1px solid white;
   background-color: lightseagreen;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-radius: 10px;
   color: white;
   cursor: pointer;
+  margin-left: 10px;
 }

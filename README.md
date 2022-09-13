@@ -1,1 +1,1 @@
-first task of my Typescript learning journey
+# todo list build with Typescript and React
