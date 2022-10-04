@@ -35,8 +35,8 @@ const App: FC =()=>{
     <div className="App">
       <div className='header'>
         <div className='inputContainer'>
-          <input type='text' placeholder='Task...' name='task' value={task} onChange={handleChange}/>
-          <input type='number' placeholder='Deadline in days...' name='deadline' value={deadline} onChange={handleChange}/>
+          <input type='text' id='text' placeholder='Task...' name='task' value={task} onChange={handleChange}/>
+          <input type='number' id='number' placeholder='Deadline in days...' name='deadline' value={deadline} onChange={handleChange}/>
         </div>
       <button onClick={addTask}>Add Task</button>
       </div>

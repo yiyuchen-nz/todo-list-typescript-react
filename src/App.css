@@ -1,7 +1,7 @@
 body{
   margin: 0%;
   padding: 0%;
-  background-color: bisque;
+  background-color: white;
 }
 
 .App {
@@ -15,7 +15,7 @@ body{
 
 .header{
   flex: 30%;
-  background-color: tomato;
+  background-color: bisque;
   width: 30%;
   display: flex;
   justify-content: center;
